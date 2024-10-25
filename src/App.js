@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import Body from './components/Body';
 import Cards from './components/Cards';
 import About from './components/About';
+import Categories from './components/Categories';
+import Courses from './components/Courses';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Body />
       <Cards />
       <About />
+      <Categories />
+      <Courses />
     </div>
   );
 }

@@ -5,7 +5,7 @@ import { IoArrowForwardOutline } from "react-icons/io5";
 const About = () => {
   return (
     <div>
-      <div className="md:flex py-16 mx-5 lg:mx-72 md:mx-11">
+      <div className="border-b md:flex py-16 mx-5 lg:mx-72 md:mx-11">
         <div className="flex-1 mb-8">
           <img src={AboutPic} alt="about " className="w-[600px] h-[450px]" />
         </div>
@@ -29,7 +29,7 @@ const About = () => {
               <p>Skilled Instructors</p>
             </div>
             <div className="flex space-x-2 py-1 ">
-              <IoArrowForwardOutline className="m-1 text-[#06BBCC] text-xl" />
+              <IoArrowForwardOutline className="m-1 text-[#06BBCC] text-xl " />
               <p>Skilled Instructors</p>
             </div>
             <div className="flex space-x-2 py-1 ">
