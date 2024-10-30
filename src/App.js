@@ -5,6 +5,7 @@ import Cards from './components/Cards';
 import About from './components/About';
 import Categories from './components/Categories';
 import Courses from './components/Courses';
+import Instructors from './components/Instructors';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Categories />
       <Courses />
+      <Instructors />
     </div>
   );
 }
